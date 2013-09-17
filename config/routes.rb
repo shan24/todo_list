@@ -1,6 +1,9 @@
 TodoList::Application.routes.draw do
-	get "static_pages/home"
-  resources :lists
+	resources :lists
+
+  root to: 'lists#index'
+
+   match '/newlist',  to: 'lists#new'
 
   
 
