@@ -1,0 +1,13 @@
+<% provide(:title, "All Lists") %>
+
+<h1>All Lists</h1>
+
+<ul class="lists">
+	<% @list.each do |list| %>
+		<li class="drag">
+			<%= link_to list.name, list %>   | 
+			<%= link_to "Check Off", list, method: :delete , data: { confirm: "You Sure?" } %>	
+		</li>
+	<%end%>
+</ul>
+

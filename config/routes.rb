@@ -1,7 +1,8 @@
 TodoList::Application.routes.draw do
-  get "lists/new"
+	get "static_pages/home"
+  resources :lists
 
-  get "static_pages/home"
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
