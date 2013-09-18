@@ -4,13 +4,30 @@
 
 /* lists index*/
 
+h1{
+	color: #008B00;
+}
+
+ 	a:link{text-decoration:none; 
+		  color: #00C957;
+		  }
+	a:visited{text-decoration:none; 
+		  color: #00C957;
+		  }
+	a:hover{text-decoration:underline;
+	         color:orange;
+	        } 
+
+p {color: #458B00}
+
+hr {color: green;}
+
 .lists {
   list-style: none;
   margin: 0;
   li {
     overflow: auto;
     padding: 10px 0;
-    border-top: 1px solid green;
     }
     }
 
