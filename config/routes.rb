@@ -4,6 +4,8 @@ TodoList::Application.routes.draw do
   root to: 'lists#index'
 
    match '/newlist',  to: 'lists#new'
+   match '/alllists',  to: 'lists#index'
+
 
   
 

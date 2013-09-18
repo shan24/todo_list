@@ -1,4 +1,23 @@
 <% provide(:title, 'New List') %>
-<h1>Create new List.</h1>
-<p>Find me in app/views/lists/new.html.erb</p>
+<h1>Create new list.</h1>
 
+
+<div>
+  <div>
+    <%= form_for @list, url: {action: "create"} do |f| %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+  </br>
+      <%= f.label :description %>
+      <%= f.text_field :description %>
+
+
+      <%= f.submit "Create the List" %>
+    <% end %>
+  </div>
+</div>
+
+</br>
+<%= link_to "Nevermind back to Lists!", alllists_path %>
