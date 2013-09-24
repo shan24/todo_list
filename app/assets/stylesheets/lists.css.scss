@@ -3,24 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /* lists index*/
+body{background-color:#009900;}
 
 h1{
-	color: #008B00;
+	color: white;
+ font:72; 
 }
 
  	a:link{text-decoration:none; 
-		  color: #00C957;
+		  color: white;
 		  }
 	a:visited{text-decoration:none; 
-		  color: #00C957;
+		  color: white;
 		  }
 	a:hover{text-decoration:underline;
-	         color:orange;
+	         color: black;
 	        } 
 
-p {color: #458B00}
+p {color: white}
 
-hr {color: green;}
+hr {color: white;}
 
 .lists {
   list-style: none;
